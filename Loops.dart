@@ -16,7 +16,10 @@ void main(){
     while(num >= 1){
         print(num);
         num--;
-        
-    }
 
+    //for each loop
+    var names=["Emin","John","Teena"];
+        names.forEach((String name) {
+            print(name);
+    });
 }
